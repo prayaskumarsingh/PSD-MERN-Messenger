@@ -1,0 +1,11 @@
+POST http://localhost:8888/messages
+Content-Type: application/json
+
+{
+      "from" : "c",
+      "to": "b",
+      "messageText": "c hellos b"
+}
+
+###
+GET http://localhost:8888/messages/all/a/b

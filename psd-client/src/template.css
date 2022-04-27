@@ -1,0 +1,113 @@
+body{
+      font-family: Arial, Helvetica, sans-serif;
+      background-image: linear-gradient(to bottom right, #9df, #fd9);
+}
+.content
+{     
+      width: 40vw;
+      height: 96vh;
+      margin: 2vh auto;
+}
+@media only screen and (max-width: 800px) {
+      .content {
+            width: 90vw;
+      }
+}
+.title {
+      height: 12%;
+      background-color: #fff;
+      color: #000;
+      font-size: 2.25em;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 9px 9px 0 0 ;
+      border-bottom: solid 3px #ddd;
+}
+.alert
+{
+      height: 3%;
+      background-color: #ffa500;
+      color: #fff;
+      font-size: 0.75em;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      /* display: none; */
+}
+ul{
+      overflow: scroll;
+      margin: 0;
+      padding: 0;
+      height: 75%;
+      background-color: #fff;
+}
+li{
+      list-style: none;
+      padding: 0.5em 0.5em;
+      margin: 0 0.5em;
+      border-bottom: #eee solid 1px;
+}
+h5{
+      margin: 0.25em 0;
+      padding: 0;
+      color: #666;
+      font-weight: 900;
+      font-size: 0.825em;
+}
+p{
+      margin: 0;
+      padding: 0;
+      font-size: 1em;
+      font-weight: 100;
+}
+
+.time{
+      font-style: italic;
+      font-size: 0.75em;
+      color:#bbb;
+      margin: 0.25em 0;
+}
+.message {
+      box-sizing: border-box;
+      height: 10%;
+      width: 100%;
+      padding: 1em;
+      margin: 0;
+      border: 0;
+      font-size: 1em;
+      border-top: solid 3px #ddd;
+      border-radius: 0 0 9px 9px;
+}
+.fromto {
+      width: 100%;
+      padding: 2em 0;
+      background-color: #fff;
+      border-radius: 0 0 9px 9px;
+}
+
+.fromtoInput {
+      box-sizing: border-box;
+      height: 10%;
+      width: 90%;
+      padding: 0.75em;
+      margin: 1em 5%;
+      border: 0;
+      font-size: 1em;
+      background-color: #f6f6f6;
+}
+.button{
+      box-sizing: border-box;
+      height: 10%;
+      width: 90%;
+      padding: 0.75em;
+      margin: 1em 5%;
+      border: 0;
+      font-size: 1em;
+      background-color: #f6f6f6;
+      font-weight: 700;
+      background-color: #333;
+      color:#fff;
+      border-radius: 9px;
+}
